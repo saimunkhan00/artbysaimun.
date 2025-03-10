@@ -1,0 +1,41 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(45deg, #ff6b6b, #f7b731, #4b7bec, #20bf6b);
+    background-size: 400% 400%;
+    animation: gradientBG 10s ease infinite;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+@keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+header {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-bottom: 5px solid gold;
+}
+nav a {
+    color: #fff;
+    font-weight: bold;
+    margin: 0 20px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+nav a:hover {
+    color: #ffdd59;
+    transform: scale(1.1);
+}
+.hero {
+    padding: 120px;
+    font-size: 28px;
+    font-weight: bold;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.6);
+}
+footer {
+    background: #222;
+    padding: 10px;
+}
